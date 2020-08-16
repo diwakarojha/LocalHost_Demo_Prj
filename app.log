@@ -1,0 +1,213 @@
+2020-08-16 11:43:59.607116: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+
+StdOut: 
+
+StdErr: 
+2020-08-16 11:43:59.617089: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+2020-08-16 11:43:59.630053: Running on_exit tasks
+2020-08-16 11:43:59.635043: wfastcgi.py 3.0.0 closed
+2020-08-16 11:43:59.781419: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+
+StdOut: 
+
+StdErr: 
+2020-08-16 11:43:59.788401: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+2020-08-16 11:43:59.793425: Running on_exit tasks
+2020-08-16 11:43:59.799408: wfastcgi.py 3.0.0 closed
+2020-08-16 11:46:42.100789: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+ModuleNotFoundError: No module named 'sklearn'
+
+
+
+StdOut: 
+
+StdErr: 
+2020-08-16 11:46:42.124688: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "main.app" could not be imported: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+ModuleNotFoundError: No module named 'sklearn'
+
+2020-08-16 11:46:42.134698: Running on_exit tasks
+2020-08-16 11:46:42.142640: wfastcgi.py 3.0.0 closed
+2020-08-16 11:49:01.475809: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+  File "sklearn\tree\_tree.pyx", line 607, in sklearn.tree._tree.Tree.__cinit__
+ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'
+
+
+StdOut: 
+
+StdErr: c:\python\lib\site-packages\sklearn\utils\deprecation.py:143: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+c:\python\lib\site-packages\sklearn\utils\deprecation.py:143: FutureWarning: The sklearn.tree.tree module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API.
+  warnings.warn(message, FutureWarning)
+c:\python\lib\site-packages\sklearn\base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+2020-08-16 11:49:01.487818: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+  File "sklearn\tree\_tree.pyx", line 607, in sklearn.tree._tree.Tree.__cinit__
+ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'
+2020-08-16 11:49:01.502741: Running on_exit tasks
+2020-08-16 11:49:01.515706: wfastcgi.py 3.0.0 closed
+2020-08-16 12:09:33.726351: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+  File "sklearn\tree\_tree.pyx", line 607, in sklearn.tree._tree.Tree.__cinit__
+ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'
+
+
+StdOut: 
+
+StdErr: c:\python\lib\site-packages\sklearn\utils\deprecation.py:143: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+c:\python\lib\site-packages\sklearn\utils\deprecation.py:143: FutureWarning: The sklearn.tree.tree module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API.
+  warnings.warn(message, FutureWarning)
+c:\python\lib\site-packages\sklearn\base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+2020-08-16 12:09:33.769878: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "c:\python\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\main.py", line 6, in <module>
+    model=pickle.load(open('Approval.pkl','rb'))
+  File "sklearn\tree\_tree.pyx", line 607, in sklearn.tree._tree.Tree.__cinit__
+ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'
+2020-08-16 12:09:33.781882: Running on_exit tasks
+2020-08-16 12:09:33.788829: wfastcgi.py 3.0.0 closed
+2020-08-16 12:22:21.585235: wfastcgi.py will restart when files in C:\inetpub\wwwroot\GCP_Appr\ are changed: .*((\.py)|(\.config))$
+2020-08-16 12:22:21.594210: wfastcgi.py 3.0.0 initialized
+2020-08-16 12:28:44.591473: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2020-08-16 12:28:44.599457: Running on_exit tasks
+2020-08-16 12:28:44.607040: wfastcgi.py 3.0.0 closed
+2020-08-16 12:37:04.669504: wfastcgi.py will restart when files in C:\inetpub\wwwroot\GCP_Appr\ are changed: .*((\.py)|(\.config))$
+2020-08-16 12:37:04.676887: wfastcgi.py 3.0.0 initialized
+2020-08-16 12:49:17.815565: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2020-08-16 12:49:17.823544: Running on_exit tasks
+2020-08-16 12:49:17.829528: wfastcgi.py 3.0.0 closed
+2020-08-16 13:05:47.010593: wfastcgi.py will restart when files in C:\inetpub\wwwroot\GCP_Appr\ are changed: .*((\.py)|(\.config))$
+2020-08-16 13:05:47.024556: wfastcgi.py 3.0.0 initialized
+2020-08-16 13:11:58.087763: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "c:\python\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "c:\python\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2020-08-16 13:11:58.412894: Running on_exit tasks
+2020-08-16 13:11:58.421908: wfastcgi.py 3.0.0 closed
